@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg-body.png);
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+header{
+    width: 1180px;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header nav ul li a{
+    width: 180px;
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+main{
+    width: 1180px;
+    margin: auto;
+}
+
+.banner{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.produtos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 380px;
+    margin-bottom: 30px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    padding: 8px;
+}
+
+footer{
+    width: 1180px;
+    height: 100px;
+    background-color: #b40003;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+ 
+}
+
+footer nav{
+    position: relative;
+    top: 45px;
+    width: 50%;
+    margin: auto;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+footer nav ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
